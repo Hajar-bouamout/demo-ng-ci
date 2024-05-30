@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: app-ng
-          path: dist/demo-ng-ci/browser
+          path: dist/demo_ng_ci/browser
 
   docker:
     needs: build
